@@ -1,0 +1,46 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /* Slider */
+  
+  /* html, body, #container, .carousel {
+      height:100%;
+      margin: 0;
+      width: 100%;
+  } */
+  
+  .image-slide {
+    /* height: 100%;
+      width: 100%; */
+    transition: background-image 0.3s ease-in-out;
+  }
+  
+  .slide-arrow {
+    color: #9f9f9f;
+    cursor: pointer;
+    font-size: 2rem;
+    position: fixed;
+    top: 50%;
+  }
+  
+  .slide-arrow.right {
+    right: 1rem;
+    z-index: 99;
+  }
+  
+  .slide-arrow.left {
+    left: 1rem;
+    z-index: 99;
+  }
+  
+  .img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    max-height: 600px;
+    width: 100%;
+  }
