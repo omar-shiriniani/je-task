@@ -3,6 +3,8 @@ import { allIds, fetchOrderById } from "../api";
 
 ////////////////////////////////// Your code tasks is below //////////////////////////////////////////////////////
 
+// this file does not work, can't run ecommerce.js
+
 const fetchAllOrders = () => {
     const ids = allIds;
     // .....
